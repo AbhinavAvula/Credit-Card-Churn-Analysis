@@ -9,8 +9,11 @@ Model Selection
 
 # Data Description
 CLIENTNUM: Client number. Unique identifier for the customer holding the account
+
 Attrition_Flag: Internal event (customer activity) variable - if the account is closed then "Attrited Customer" else "Existing Customer"
+
 Customer_Age: Age in Years
+
 Gender: Gender of the account holder
 Dependent_count: Number of dependents
 Education_Level: Educational Qualification of the account holder - Graduate, High School, Unknown, Uneducated, College(refers to college student), Post-Graduate, Doctorate
