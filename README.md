@@ -59,7 +59,7 @@ Type 2 Error (False Negative): This occurs when the model incorrectly predicts a
 
 In the context of model evaluation for customer churn prediction, prioritizing recall over precision is paramount. Recall reflects the model's capacity to accurately detect all instances of customer churn, even if it results in some false alarms. Minimizing false negatives, where actual churn cases are missed, is crucial as it directly serves the business objective of retaining customers. This emphasis on recall may lead to an increase in false positives (incorrectly predicting churn), but it represents a strategic trade-off aimed at efficiently identifying and retaining customers at risk of churning.
 
-# Logistic Regression Evaluation on Test Data
+# Logistic Regression 
 The logistic regression model, designed to predict credit card churn, exhibits an accuracy of 88% on both the training and testing datasets. However, its recall, which indicates the model's ability to identify customers at risk of attrition, is only 44%. This suggests that the model misses over half of potential churn cases, potentially impacting customer retention efforts. Further improvements or alternative models may be necessary to enhance performance.
 
 Additionally, considerations such as calculating odds, precision-recall curve analysis, threshold calculation, and reevaluation on the test data may provide deeper insights into the model's performance and guide future refinement efforts.
